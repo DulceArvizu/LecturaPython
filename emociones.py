@@ -15,7 +15,7 @@ socket.bind("tcp://127.0.0.1:5555")
 detector = FER()
 
 traduccion = {
-    "angry": "enojadoa",
+    "angry": "enojado",
     "disgust": "disgusto",
     "fear": "miedo",
     "happy": "feliz",
@@ -29,14 +29,14 @@ nombre_csv = f"emociones_{datetime.now().strftime('%d%m_%H%M')}.csv"
 with open(nombre_csv, "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow([
-        "timestamp","emocion_principal","confianza",
+        "contador","timestamp","emocion_principal","confianza",
         "segunda_emocion","confianza_segunda"
     ])
 
 cap = cv2.VideoCapture(0)
 
 ultimo = time.time()
-segundo = 1
+contador = 1
 
 while True:
     ret, frame = cap.read()
@@ -57,6 +57,8 @@ while True:
     emociones = detector.detect_emotions(frame)
 
     if emociones:
+        timestamp = datetime.now().strftime("%d-%m-%y.%H.%M.%S")
+        
         data = emociones[0]["emotions"]
         orden = sorted(data.items(), key=lambda x: x[1], reverse=True)
 
@@ -69,14 +71,15 @@ while True:
         with open(nombre_csv, "a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow([
-                segundo,
+                contador,
+                timestamp,
                 emocion1,
                 conf1,
                 emocion2,
                 conf2
             ])
 
-        segundo += 1
+        contador += 1
 
 cap.release()
 cv2.destroyAllWindows()

@@ -20,7 +20,7 @@ face_mesh = mp_face.FaceMesh(static_image_mode=False, max_num_faces=1)
 nombre_csv = f"eyetracking_{datetime.now().strftime('%d%m_%H%M')}.csv"
 with open(nombre_csv, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
-    writer.writerow(["timestamp", "direccion", "retencion", "distraccion"])
+    writer.writerow(["contador","timestamp", "direccion", "retencion", "distraccion"])
 
 ultimo = time.time()
 contador = 1
@@ -114,8 +114,9 @@ while True:
 
     ahora = time.time()
 
-    # ----- GUARDAR CADA 1 SEGUNDO -----
     if ahora - ultimo >= 1:
+       
+        timestamp = datetime.now().strftime("%d-%m.%H.%M.%S")
 
         if direccion == "frente":
             retencion += 1
@@ -126,6 +127,7 @@ while True:
             writer = csv.writer(f)
             writer.writerow([
                 contador,
+                timestamp,
                 direccion,
                 retencion,
                 distraccion
