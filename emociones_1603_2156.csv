@@ -1,0 +1,33 @@
+contador,timestamp,emocion_principal,confianza,segunda_emocion,confianza_segunda
+1,2026-03-16 21:56:58,neutral,0.51,miedo,0.26
+2,2026-03-16 21:56:59,feliz,0.34,miedo,0.23
+3,2026-03-16 21:57:00,feliz,0.35,neutral,0.25
+4,2026-03-16 21:57:01,neutral,0.35,feliz,0.28
+5,2026-03-16 21:57:02,miedo,0.27,feliz,0.21
+6,2026-03-16 21:57:03,enojado,0.32,neutral,0.29
+7,2026-03-16 21:57:04,enojado,0.28,miedo,0.19
+8,2026-03-16 21:57:05,miedo,0.4,enojado,0.18
+9,2026-03-16 21:57:06,triste,0.31,neutral,0.29
+10,2026-03-16 21:57:07,No detectado,0,No detectado,0
+11,2026-03-16 21:57:08,No detectado,0,No detectado,0
+12,2026-03-16 21:57:09,No detectado,0,No detectado,0
+13,2026-03-16 21:57:10,No detectado,0,No detectado,0
+14,2026-03-16 21:57:11,triste,0.4,miedo,0.36
+15,2026-03-16 21:57:12,No detectado,0,No detectado,0
+16,2026-03-16 21:57:13,No detectado,0,No detectado,0
+17,2026-03-16 21:57:14,No detectado,0,No detectado,0
+18,2026-03-16 21:57:15,No detectado,0,No detectado,0
+19,2026-03-16 21:57:17,No detectado,0,No detectado,0
+20,2026-03-16 21:57:18,No detectado,0,No detectado,0
+21,2026-03-16 21:57:19,No detectado,0,No detectado,0
+22,2026-03-16 21:57:20,No detectado,0,No detectado,0
+23,2026-03-16 21:57:21,No detectado,0,No detectado,0
+24,2026-03-16 21:57:22,No detectado,0,No detectado,0
+25,2026-03-16 21:57:23,No detectado,0,No detectado,0
+26,2026-03-16 21:57:24,No detectado,0,No detectado,0
+27,2026-03-16 21:57:25,No detectado,0,No detectado,0
+28,2026-03-16 21:57:26,No detectado,0,No detectado,0
+29,2026-03-16 21:57:27,No detectado,0,No detectado,0
+30,2026-03-16 21:57:28,No detectado,0,No detectado,0
+31,2026-03-16 21:57:29,No detectado,0,No detectado,0
+32,2026-03-16 21:57:30,No detectado,0,No detectado,0
