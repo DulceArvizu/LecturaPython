@@ -55,7 +55,7 @@ while True:
     ultimo = ahora
 
     emociones = detector.detect_emotions(frame)
-    timestamp = datetime.now().strftime("%d-%m-%y.%H.%M.%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # ==========================================
     #   SI NO DETECTA ROSTRO

@@ -116,7 +116,7 @@ while True:
 
     if ahora - ultimo >= 1:
        
-        timestamp = datetime.now().strftime("%d-%m.%H.%M.%S")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         if direccion == "frente":
             retencion += 1
