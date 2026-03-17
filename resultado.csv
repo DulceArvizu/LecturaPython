@@ -1,0 +1,62 @@
+contador_segundos,timestamp,# palabras leidas,# errores,emocion_principal,confianza,segunda_emocion,confianza_segunda,direccion,retencion,distraccion
+1.0,2026-03-16 21:57:38,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+2.0,2026-03-16 21:57:39,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+3.0,2026-03-16 21:57:40,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+4.0,2026-03-16 21:57:41,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+5.0,2026-03-16 21:57:42,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+6.0,2026-03-16 21:57:43,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+7.0,2026-03-16 21:57:44,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+8.0,2026-03-16 21:57:45,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+9.0,2026-03-16 21:57:46,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+10.0,2026-03-16 21:57:47,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+11.0,2026-03-16 21:57:48,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+12.0,2026-03-16 21:57:49,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+13.0,2026-03-16 21:57:50,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+14.0,2026-03-16 21:57:51,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,frente,1.0,0.0
+15.0,2026-03-16 21:57:52,0.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+16.0,2026-03-16 21:57:53,0.0,0.0,neutral,0.66,triste,0.14,frente,2.0,0.0
+16.0,2026-03-16 21:57:53,0.0,0.0,neutral,0.33,miedo,0.29,frente,2.0,0.0
+17.0,2026-03-16 21:57:54,0.0,0.0,neutral,0.42,miedo,0.26,frente,3.0,0.0
+18.0,2026-03-16 21:57:55,0.0,0.0,neutral,0.76,miedo,0.09,frente,4.0,0.0
+19.0,2026-03-16 21:57:56,0.0,0.0,neutral,0.59,miedo,0.15,frente,5.0,0.0
+20.0,2026-03-16 21:57:57,18.0,0.0,neutral,0.77,miedo,0.1,frente,6.0,0.0
+21.0,2026-03-16 21:57:58,18.0,0.0,neutral,0.59,miedo,0.19,frente,7.0,0.0
+22.0,2026-03-16 21:57:59,18.0,0.0,miedo,0.49,triste,0.2,frente,8.0,0.0
+23.0,2026-03-16 21:58:00,18.0,0.0,miedo,0.31,neutral,0.28,frente,9.0,0.0
+24.0,2026-03-16 21:58:01,18.0,0.0,neutral,0.56,miedo,0.2,frente,10.0,0.0
+25.0,2026-03-16 21:58:02,18.0,0.0,neutral,0.43,miedo,0.29,Sin registro,Sin registro,Sin registro
+26.0,2026-03-16 21:58:03,18.0,0.0,Sin registro,Sin registro,Sin registro,Sin registro,frente,11.0,0.0
+27.0,2026-03-16 21:58:04,18.0,0.0,neutral,0.76,triste,0.1,frente,12.0,0.0
+28.0,2026-03-16 21:58:05,21.0,9.0,neutral,0.73,triste,0.12,frente,13.0,0.0
+Sin registro,2026-03-16 21:58:06,Sin registro,Sin registro,neutral,0.8,triste,0.08,frente,14.0,0.0
+29.0,2026-03-16 21:58:07,21.0,9.0,neutral,0.38,miedo,0.26,frente,15.0,0.0
+30.0,2026-03-16 21:58:08,21.0,9.0,neutral,0.75,triste,0.12,frente,16.0,0.0
+31.0,2026-03-16 21:58:09,21.0,9.0,neutral,0.76,miedo,0.1,frente,17.0,0.0
+32.0,2026-03-16 21:58:10,21.0,9.0,neutral,0.66,triste,0.15,frente,18.0,0.0
+33.0,2026-03-16 21:58:11,24.0,19.0,neutral,0.79,miedo,0.08,frente,19.0,0.0
+34.0,2026-03-16 21:58:12,24.0,19.0,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro,Sin registro
+35.0,2026-03-16 21:58:13,24.0,19.0,neutral,0.79,triste,0.1,frente,20.0,0.0
+36.0,2026-03-16 21:58:14,24.0,19.0,neutral,0.9,triste,0.04,frente,21.0,0.0
+37.0,2026-03-16 21:58:15,24.0,19.0,neutral,0.84,triste,0.07,frente,22.0,0.0
+38.0,2026-03-16 21:58:16,24.0,19.0,neutral,0.85,miedo,0.06,frente,23.0,0.0
+39.0,2026-03-16 21:58:17,30.0,43.0,neutral,0.79,miedo,0.09,frente,24.0,0.0
+40.0,2026-03-16 21:58:18,30.0,43.0,neutral,0.7,miedo,0.12,frente,25.0,0.0
+41.0,2026-03-16 21:58:19,30.0,43.0,miedo,0.37,neutral,0.21,frente,26.0,0.0
+42.0,2026-03-16 21:58:20,30.0,43.0,miedo,0.37,triste,0.21,frente,27.0,0.0
+43.0,2026-03-16 21:58:21,30.0,43.0,neutral,0.38,miedo,0.34,frente,28.0,0.0
+44.0,2026-03-16 21:58:22,30.0,43.0,neutral,0.42,miedo,0.27,frente,29.0,0.0
+45.0,2026-03-16 21:58:23,30.0,43.0,neutral,0.57,miedo,0.22,frente,30.0,0.0
+46.0,2026-03-16 21:58:24,30.0,43.0,neutral,0.37,miedo,0.36,frente,31.0,0.0
+47.0,2026-03-16 21:58:25,30.0,43.0,neutral,0.75,triste,0.1,frente,32.0,0.0
+48.0,2026-03-16 21:58:26,30.0,43.0,neutral,0.74,miedo,0.1,frente,33.0,0.0
+49.0,2026-03-16 21:58:27,30.0,43.0,neutral,0.78,triste,0.09,frente,34.0,0.0
+50.0,2026-03-16 21:58:28,44.0,59.0,neutral,0.8,miedo,0.07,frente,35.0,0.0
+51.0,2026-03-16 21:58:29,44.0,59.0,neutral,0.41,miedo,0.23,frente,36.0,0.0
+52.0,2026-03-16 21:58:30,44.0,59.0,Sin registro,Sin registro,Sin registro,Sin registro,frente,37.0,0.0
+53.0,2026-03-16 21:58:31,44.0,59.0,miedo,0.5,neutral,0.21,frente,38.0,0.0
+54.0,2026-03-16 21:58:32,44.0,59.0,miedo,0.43,neutral,0.23,Sin registro,Sin registro,Sin registro
+55.0,2026-03-16 21:58:33,44.0,59.0,miedo,0.4,neutral,0.32,frente,39.0,0.0
+56.0,2026-03-16 21:58:34,44.0,59.0,neutral,0.39,miedo,0.36,frente,40.0,0.0
+57.0,2026-03-16 21:58:35,44.0,59.0,miedo,0.51,neutral,0.26,frente,41.0,0.0
+58.0,2026-03-16 21:58:36,44.0,59.0,neutral,0.72,triste,0.13,frente,42.0,0.0
+Sin registro,2026-03-16 21:58:37,Sin registro,Sin registro,neutral,0.74,triste,0.12,frente,43.0,0.0
